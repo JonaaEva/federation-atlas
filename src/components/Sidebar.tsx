@@ -63,19 +63,6 @@ export default function Sidebar({ perspective, setPerspective, activeFilter, set
                 </button>
             </div>
 
-            {/* Disclaimer Warning Box */}
-            <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-xl shadow-sm">
-                <div className="flex items-start gap-3">
-                    <AlertTriangle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
-                    <div>
-                        <h4 className="font-semibold text-amber-900 text-sm mb-1">Disclaimer: Prototype Content</h4>
-                        <p className="text-xs text-amber-800 leading-relaxed">
-                            The definitions and examples provided in this prototype are AI-generated placeholders intended for illustrative purposes only. This site is a preliminary design developed to facilitate engagement with public and professional stakeholders, who will collaboratively refine and establish the final, agreed-upon content.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
             {/* Search Bar */}
             <div className="mb-6 relative">
                 <div className="relative">
