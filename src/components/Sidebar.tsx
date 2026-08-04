@@ -50,7 +50,6 @@ export default function Sidebar({ perspective, setPerspective, activeFilter, set
                         <Fingerprint className="w-8 h-8 text-blue-600" />
                         Federation Atlas
                     </h1>
-                    <p className="text-sm text-slate-500">Federated Data &amp; Framework Analysis</p>
                 </div>
                 <button
                     onClick={() => {
