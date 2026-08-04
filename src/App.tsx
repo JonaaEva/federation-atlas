@@ -61,16 +61,6 @@ function App() {
           </div>
         </main>
       </div>
-
-      {/* Bottom Survey Banner */}
-      <div className="bg-indigo-600 text-white p-3 text-center text-sm font-medium z-50 shrink-0 shadow-lg relative overflow-hidden animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite] hover:animate-none transition-colors hover:bg-indigo-700">
-        <a href="https://forms.office.com/e/ka81cwNP1h" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center justify-center gap-2">
-          <svg className="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ animationDuration: '3s' }}>
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-          </svg>
-          Please contribute the definitions by completing our survey
-        </a>
-      </div>
     </div>
   );
 }
