@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { OntologyNode, FrameworkTag, frameworkCategories } from '../data/ontology';
 import { tagReasons } from '../data/tagReasons';
 import { frameworkTagDefinitions } from '../data/frameworkTagDefinitions';
-import { SlidersHorizontal, Settings, BookOpen, Fingerprint, ChevronDown, ChevronRight, Search, X, AlertTriangle } from 'lucide-react';
+import { SlidersHorizontal, Settings, BookOpen, Fingerprint, ChevronDown, ChevronRight, Search, X} from 'lucide-react';
 
 interface SidebarProps {
     perspective: 'public' | 'tech' | 'researcher' | 'gov';
