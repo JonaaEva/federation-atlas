@@ -1,3 +1,6 @@
+# IMPORTANT
+This repo is out of date and work transitioned to https://github.com/lsc-sde/federated-analytics-ontology, supported by the Lancashire Teaching Hospital and the Federated Research Community Group.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
